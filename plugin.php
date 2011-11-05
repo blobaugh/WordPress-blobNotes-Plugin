@@ -39,6 +39,7 @@ function blobNotes_init() {
     'capability_type' => 'post',
     'hierarchical' => false, 
     'supports' => array('title','editor'),
+    'taxonomies' => array('category'),
      'show_in_nav_menus' => false
   ); 
   register_post_type('blobNotes',$args);
