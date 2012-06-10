@@ -33,7 +33,7 @@ function blobNotes_init() {
     'publicly_queryable' => false, 
     'exclude_from_search' => true,
     'show_in_menu' => true, 
-    'menu_icon' => plugins_url() . '/blobNotes/logo-icon.png',
+    'menu_icon' => plugins_url( 'logo-icon.png', __FILE__ ),// . '/blobNotes/logo-icon.png',
     'rewrite' => false, 
     'has_archive' => false,
     'capability_type' => 'post',
